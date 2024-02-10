@@ -10,7 +10,6 @@ export default function Tabs() {
   const previewData = useSelector((state) => state.preview);
 
   const [tabIndex, setTabIndex] = useState(tabs[0].id);
-  console.log(tabs);
 
   return (
     <div className="flex grow">
